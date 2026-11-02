@@ -156,4 +156,3 @@ The package supports building the algorithms, reconstructing all base and publis
 ## Citation and upstream components
 
 The implementation includes modified PyVRP and HGS components. The Gurobi SDK is an external dependency and is not bundled.
-

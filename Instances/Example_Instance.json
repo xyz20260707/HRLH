@@ -1,0 +1,1372 @@
+{
+  "case_id": "case_065_small_S08",
+  "scale": "small",
+  "supplier_count": 8,
+  "node_count": 10,
+  "start_node": 0,
+  "end_node": 9,
+  "vehicle_count": 8,
+  "vehicle_length_mm": 9600,
+  "vehicle_width_mm": 2400,
+  "vehicle_height_mm": 2400,
+  "unit_distance_cost": 8,
+  "fixed_vehicle_cost": 300,
+  "item_count": 33,
+  "mandatory_item_count": 23,
+  "optional_rack_count": 10,
+  "instance_seed": 20326488,
+  "compatibility_probability": 0.9009287925696594,
+  "suppliers": [
+    {
+      "node_id": 1,
+      "service_time_min": 30,
+      "delivery_deadline_min": 13848.666667
+    },
+    {
+      "node_id": 2,
+      "service_time_min": 30,
+      "delivery_deadline_min": 4956.7
+    },
+    {
+      "node_id": 3,
+      "service_time_min": 30,
+      "delivery_deadline_min": 27932.466667
+    },
+    {
+      "node_id": 4,
+      "service_time_min": 30,
+      "delivery_deadline_min": 15804.216667
+    },
+    {
+      "node_id": 5,
+      "service_time_min": 30,
+      "delivery_deadline_min": 16609.733333
+    },
+    {
+      "node_id": 6,
+      "service_time_min": 30,
+      "delivery_deadline_min": 17641.166667
+    },
+    {
+      "node_id": 7,
+      "service_time_min": 30,
+      "delivery_deadline_min": 300
+    },
+    {
+      "node_id": 8,
+      "service_time_min": 30,
+      "delivery_deadline_min": 12215.966667
+    }
+  ],
+  "items": [
+    {
+      "item_id": 1,
+      "supplier_id": 1,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1680,
+      "width_mm": 1180,
+      "height_mm": 1150,
+      "dock_id": 5,
+      "size_class": 10,
+      "stack_mode": 1,
+      "max_stack_layers": 2,
+      "volume_m3": 2.27976,
+      "demand_quantity": 950,
+      "pack_quantity": 64,
+      "due_time_min": 15836.233333,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 2,
+      "supplier_id": 1,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1830,
+      "width_mm": 1180,
+      "height_mm": 1150,
+      "dock_id": 3,
+      "size_class": 11,
+      "stack_mode": 2,
+      "max_stack_layers": 2,
+      "volume_m3": 2.48331,
+      "demand_quantity": 483,
+      "pack_quantity": 23,
+      "due_time_min": 13848.666667,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 3,
+      "supplier_id": 1,
+      "is_pallet": true,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "height_mm": 430,
+      "dock_id": 6,
+      "size_class": 3,
+      "stack_mode": 3,
+      "max_stack_layers": 1,
+      "volume_m3": 0.516,
+      "demand_quantity": 56,
+      "pack_quantity": 30,
+      "due_time_min": 15971.216667,
+      "palletized_from_box": 1,
+      "boxes_on_pallet": 2,
+      "box_length_m": 0.8,
+      "box_width_m": 0.6,
+      "box_height_m": 0.28
+    },
+    {
+      "item_id": 4,
+      "supplier_id": 1,
+      "is_pallet": false,
+      "is_optional": true,
+      "priority": 2,
+      "length_mm": 1510,
+      "width_mm": 1180,
+      "height_mm": 1150,
+      "dock_id": 3,
+      "size_class": 9,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 2.04907,
+      "demand_quantity": 140,
+      "pack_quantity": 40,
+      "due_time_min": 35194.766667,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 5,
+      "supplier_id": 2,
+      "is_pallet": true,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "height_mm": 430,
+      "dock_id": 6,
+      "size_class": 3,
+      "stack_mode": 3,
+      "max_stack_layers": 1,
+      "volume_m3": 0.516,
+      "demand_quantity": 187,
+      "pack_quantity": 200,
+      "due_time_min": 11057.7,
+      "palletized_from_box": 1,
+      "boxes_on_pallet": 1,
+      "box_length_m": 0.8,
+      "box_width_m": 0.6,
+      "box_height_m": 0.28
+    },
+    {
+      "item_id": 6,
+      "supplier_id": 2,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 2640,
+      "width_mm": 1180,
+      "height_mm": 1910,
+      "dock_id": 4,
+      "size_class": 13,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 5.950032,
+      "demand_quantity": 350,
+      "pack_quantity": 10,
+      "due_time_min": 4956.7,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 7,
+      "supplier_id": 2,
+      "is_pallet": false,
+      "is_optional": true,
+      "priority": 8,
+      "length_mm": 2640,
+      "width_mm": 1180,
+      "height_mm": 1910,
+      "dock_id": 4,
+      "size_class": 13,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 5.950032,
+      "demand_quantity": 6,
+      "pack_quantity": 10,
+      "due_time_min": 12438.1,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 8,
+      "supplier_id": 2,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 2640,
+      "width_mm": 1180,
+      "height_mm": 1910,
+      "dock_id": 4,
+      "size_class": 13,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 5.950032,
+      "demand_quantity": 543,
+      "pack_quantity": 10,
+      "due_time_min": 13556.683333,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 9,
+      "supplier_id": 2,
+      "is_pallet": false,
+      "is_optional": true,
+      "priority": 9,
+      "length_mm": 2710,
+      "width_mm": 1440,
+      "height_mm": 1700,
+      "dock_id": 4,
+      "size_class": 16,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 6.63408,
+      "demand_quantity": 80,
+      "pack_quantity": 10,
+      "due_time_min": 11990.166667,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 10,
+      "supplier_id": 2,
+      "is_pallet": false,
+      "is_optional": true,
+      "priority": 4,
+      "length_mm": 2640,
+      "width_mm": 1180,
+      "height_mm": 1910,
+      "dock_id": 4,
+      "size_class": 13,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 5.950032,
+      "demand_quantity": 92,
+      "pack_quantity": 10,
+      "due_time_min": 18284.033333,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 11,
+      "supplier_id": 3,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1870,
+      "width_mm": 1200,
+      "height_mm": 1980,
+      "dock_id": 4,
+      "size_class": 15,
+      "stack_mode": 3,
+      "max_stack_layers": 1,
+      "volume_m3": 4.44312,
+      "demand_quantity": 556,
+      "pack_quantity": 9,
+      "due_time_min": 36050.716667,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 12,
+      "supplier_id": 3,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1870,
+      "width_mm": 1200,
+      "height_mm": 1980,
+      "dock_id": 4,
+      "size_class": 15,
+      "stack_mode": 3,
+      "max_stack_layers": 1,
+      "volume_m3": 4.44312,
+      "demand_quantity": 675,
+      "pack_quantity": 9,
+      "due_time_min": 36052.116667,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 13,
+      "supplier_id": 3,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1830,
+      "width_mm": 1150,
+      "height_mm": 1750,
+      "dock_id": 2,
+      "size_class": 7,
+      "stack_mode": 0,
+      "max_stack_layers": 1,
+      "volume_m3": 3.682875,
+      "demand_quantity": 211,
+      "pack_quantity": 9,
+      "due_time_min": 27932.466667,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 14,
+      "supplier_id": 4,
+      "is_pallet": false,
+      "is_optional": true,
+      "priority": 5,
+      "length_mm": 1840,
+      "width_mm": 1180,
+      "height_mm": 1420,
+      "dock_id": 5,
+      "size_class": 12,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 3.083104,
+      "demand_quantity": 27,
+      "pack_quantity": 8,
+      "due_time_min": 16683.183333,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 15,
+      "supplier_id": 4,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1840,
+      "width_mm": 1180,
+      "height_mm": 1420,
+      "dock_id": 5,
+      "size_class": 12,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 3.083104,
+      "demand_quantity": 86,
+      "pack_quantity": 8,
+      "due_time_min": 32618.066667,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 16,
+      "supplier_id": 4,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1840,
+      "width_mm": 1180,
+      "height_mm": 1420,
+      "dock_id": 5,
+      "size_class": 12,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 3.083104,
+      "demand_quantity": 80,
+      "pack_quantity": 8,
+      "due_time_min": 15804.216667,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 17,
+      "supplier_id": 4,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1840,
+      "width_mm": 1180,
+      "height_mm": 1420,
+      "dock_id": 5,
+      "size_class": 12,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 3.083104,
+      "demand_quantity": 86,
+      "pack_quantity": 8,
+      "due_time_min": 16644.683333,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 18,
+      "supplier_id": 5,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1680,
+      "width_mm": 940,
+      "height_mm": 1150,
+      "dock_id": 4,
+      "size_class": 1,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 1.81608,
+      "demand_quantity": 1052,
+      "pack_quantity": 88,
+      "due_time_min": 16609.733333,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 19,
+      "supplier_id": 5,
+      "is_pallet": false,
+      "is_optional": true,
+      "priority": 3,
+      "length_mm": 1830,
+      "width_mm": 940,
+      "height_mm": 1160,
+      "dock_id": 4,
+      "size_class": 2,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 1.995432,
+      "demand_quantity": 15,
+      "pack_quantity": 88,
+      "due_time_min": 18321.183333,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 20,
+      "supplier_id": 5,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1680,
+      "width_mm": 940,
+      "height_mm": 1150,
+      "dock_id": 4,
+      "size_class": 1,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 1.81608,
+      "demand_quantity": 364,
+      "pack_quantity": 88,
+      "due_time_min": 36003.183333,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 21,
+      "supplier_id": 5,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1680,
+      "width_mm": 940,
+      "height_mm": 1150,
+      "dock_id": 4,
+      "size_class": 1,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 1.81608,
+      "demand_quantity": 1650,
+      "pack_quantity": 88,
+      "due_time_min": 32565.85,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 22,
+      "supplier_id": 6,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1870,
+      "width_mm": 1200,
+      "height_mm": 1980,
+      "dock_id": 4,
+      "size_class": 15,
+      "stack_mode": 3,
+      "max_stack_layers": 1,
+      "volume_m3": 4.44312,
+      "demand_quantity": 619,
+      "pack_quantity": 9,
+      "due_time_min": 36049.75,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 23,
+      "supplier_id": 6,
+      "is_pallet": false,
+      "is_optional": true,
+      "priority": 1,
+      "length_mm": 1870,
+      "width_mm": 1200,
+      "height_mm": 1980,
+      "dock_id": 4,
+      "size_class": 15,
+      "stack_mode": 3,
+      "max_stack_layers": 1,
+      "volume_m3": 4.44312,
+      "demand_quantity": 300,
+      "pack_quantity": 9,
+      "due_time_min": 35639.783333,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 24,
+      "supplier_id": 6,
+      "is_pallet": true,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "height_mm": 290,
+      "dock_id": 1,
+      "size_class": 3,
+      "stack_mode": 3,
+      "max_stack_layers": 1,
+      "volume_m3": 0.348,
+      "demand_quantity": 48,
+      "pack_quantity": 200,
+      "due_time_min": 17641.166667,
+      "palletized_from_box": 1,
+      "boxes_on_pallet": 1,
+      "box_length_m": 0.4,
+      "box_width_m": 0.3,
+      "box_height_m": 0.14
+    },
+    {
+      "item_id": 25,
+      "supplier_id": 6,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1830,
+      "width_mm": 1150,
+      "height_mm": 1750,
+      "dock_id": 2,
+      "size_class": 7,
+      "stack_mode": 0,
+      "max_stack_layers": 1,
+      "volume_m3": 3.682875,
+      "demand_quantity": 158,
+      "pack_quantity": 9,
+      "due_time_min": 30357.683333,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 26,
+      "supplier_id": 6,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1870,
+      "width_mm": 1200,
+      "height_mm": 1980,
+      "dock_id": 4,
+      "size_class": 15,
+      "stack_mode": 3,
+      "max_stack_layers": 1,
+      "volume_m3": 4.44312,
+      "demand_quantity": 178,
+      "pack_quantity": 9,
+      "due_time_min": 35396.733333,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 27,
+      "supplier_id": 7,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 2500,
+      "width_mm": 1140,
+      "height_mm": 2200,
+      "dock_id": 1,
+      "size_class": 6,
+      "stack_mode": 0,
+      "max_stack_layers": 0,
+      "volume_m3": 6.27,
+      "demand_quantity": 424,
+      "pack_quantity": 60,
+      "due_time_min": 15756.55,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 28,
+      "supplier_id": 7,
+      "is_pallet": true,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "height_mm": 1550,
+      "dock_id": 6,
+      "size_class": 3,
+      "stack_mode": 3,
+      "max_stack_layers": 1,
+      "volume_m3": 1.86,
+      "demand_quantity": 747,
+      "pack_quantity": 20,
+      "due_time_min": 300,
+      "palletized_from_box": 1,
+      "boxes_on_pallet": 18,
+      "box_length_m": 0.6,
+      "box_width_m": 0.4,
+      "box_height_m": 0.28
+    },
+    {
+      "item_id": 29,
+      "supplier_id": 7,
+      "is_pallet": false,
+      "is_optional": true,
+      "priority": 6,
+      "length_mm": 1360,
+      "width_mm": 1180,
+      "height_mm": 1150,
+      "dock_id": 5,
+      "size_class": 8,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 1.84552,
+      "demand_quantity": 110,
+      "pack_quantity": 102,
+      "due_time_min": 16415.15,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 30,
+      "supplier_id": 8,
+      "is_pallet": false,
+      "is_optional": true,
+      "priority": 10,
+      "length_mm": 1800,
+      "width_mm": 1200,
+      "height_mm": 1100,
+      "dock_id": 4,
+      "size_class": 14,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 2.376,
+      "demand_quantity": 73,
+      "pack_quantity": 36,
+      "due_time_min": 6324.083333,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 31,
+      "supplier_id": 8,
+      "is_pallet": true,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "height_mm": 430,
+      "dock_id": 6,
+      "size_class": 3,
+      "stack_mode": 3,
+      "max_stack_layers": 1,
+      "volume_m3": 0.516,
+      "demand_quantity": 19,
+      "pack_quantity": 12,
+      "due_time_min": 12216.15,
+      "palletized_from_box": 1,
+      "boxes_on_pallet": 2,
+      "box_length_m": 0.6,
+      "box_width_m": 0.4,
+      "box_height_m": 0.28
+    },
+    {
+      "item_id": 32,
+      "supplier_id": 8,
+      "is_pallet": false,
+      "is_optional": true,
+      "priority": 7,
+      "length_mm": 1900,
+      "width_mm": 1140,
+      "height_mm": 1530,
+      "dock_id": 4,
+      "size_class": 5,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 3.31398,
+      "demand_quantity": 69,
+      "pack_quantity": 17,
+      "due_time_min": 15269.983333,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    },
+    {
+      "item_id": 33,
+      "supplier_id": 8,
+      "is_pallet": false,
+      "is_optional": false,
+      "priority": 0,
+      "length_mm": 1350,
+      "width_mm": 1100,
+      "height_mm": 1100,
+      "dock_id": 4,
+      "size_class": 4,
+      "stack_mode": 3,
+      "max_stack_layers": 2,
+      "volume_m3": 1.6335,
+      "demand_quantity": 152,
+      "pack_quantity": 55,
+      "due_time_min": 12215.966667,
+      "palletized_from_box": 0,
+      "boxes_on_pallet": null,
+      "box_length_m": null,
+      "box_width_m": null,
+      "box_height_m": null
+    }
+  ],
+  "arcs": [
+    {
+      "node_i": 0,
+      "node_j": 1,
+      "distance_km": 17.307689,
+      "travel_time_min": 17.307689
+    },
+    {
+      "node_i": 0,
+      "node_j": 2,
+      "distance_km": 1.192171,
+      "travel_time_min": 1.192171
+    },
+    {
+      "node_i": 0,
+      "node_j": 3,
+      "distance_km": 21.380669,
+      "travel_time_min": 21.380669
+    },
+    {
+      "node_i": 0,
+      "node_j": 4,
+      "distance_km": 26.92496,
+      "travel_time_min": 26.92496
+    },
+    {
+      "node_i": 0,
+      "node_j": 5,
+      "distance_km": 18.313377,
+      "travel_time_min": 18.313377
+    },
+    {
+      "node_i": 0,
+      "node_j": 6,
+      "distance_km": 18.12106,
+      "travel_time_min": 18.12106
+    },
+    {
+      "node_i": 0,
+      "node_j": 7,
+      "distance_km": 1.797646,
+      "travel_time_min": 1.797646
+    },
+    {
+      "node_i": 0,
+      "node_j": 8,
+      "distance_km": 1.956873,
+      "travel_time_min": 1.956873
+    },
+    {
+      "node_i": 1,
+      "node_j": 2,
+      "distance_km": 17.725205,
+      "travel_time_min": 17.725205
+    },
+    {
+      "node_i": 1,
+      "node_j": 3,
+      "distance_km": 5.417893,
+      "travel_time_min": 5.417893
+    },
+    {
+      "node_i": 1,
+      "node_j": 4,
+      "distance_km": 14.180807,
+      "travel_time_min": 14.180807
+    },
+    {
+      "node_i": 1,
+      "node_j": 5,
+      "distance_km": 3.61137,
+      "travel_time_min": 3.61137
+    },
+    {
+      "node_i": 1,
+      "node_j": 6,
+      "distance_km": 2.066293,
+      "travel_time_min": 2.066293
+    },
+    {
+      "node_i": 1,
+      "node_j": 7,
+      "distance_km": 18.236829,
+      "travel_time_min": 18.236829
+    },
+    {
+      "node_i": 1,
+      "node_j": 8,
+      "distance_km": 18.365434,
+      "travel_time_min": 18.365434
+    },
+    {
+      "node_i": 1,
+      "node_j": 9,
+      "distance_km": 17.307689,
+      "travel_time_min": 17.307689
+    },
+    {
+      "node_i": 2,
+      "node_j": 1,
+      "distance_km": 17.725205,
+      "travel_time_min": 17.725205
+    },
+    {
+      "node_i": 2,
+      "node_j": 3,
+      "distance_km": 21.579032,
+      "travel_time_min": 21.579032
+    },
+    {
+      "node_i": 2,
+      "node_j": 4,
+      "distance_km": 26.75874,
+      "travel_time_min": 26.75874
+    },
+    {
+      "node_i": 2,
+      "node_j": 5,
+      "distance_km": 18.506414,
+      "travel_time_min": 18.506414
+    },
+    {
+      "node_i": 2,
+      "node_j": 6,
+      "distance_km": 18.416201,
+      "travel_time_min": 18.416201
+    },
+    {
+      "node_i": 2,
+      "node_j": 7,
+      "distance_km": 2.749757,
+      "travel_time_min": 2.749757
+    },
+    {
+      "node_i": 2,
+      "node_j": 8,
+      "distance_km": 2.886224,
+      "travel_time_min": 2.886224
+    },
+    {
+      "node_i": 2,
+      "node_j": 9,
+      "distance_km": 1.192171,
+      "travel_time_min": 1.192171
+    },
+    {
+      "node_i": 3,
+      "node_j": 1,
+      "distance_km": 5.417893,
+      "travel_time_min": 5.417893
+    },
+    {
+      "node_i": 3,
+      "node_j": 2,
+      "distance_km": 21.579032,
+      "travel_time_min": 21.579032
+    },
+    {
+      "node_i": 3,
+      "node_j": 4,
+      "distance_km": 9.093928,
+      "travel_time_min": 9.093928
+    },
+    {
+      "node_i": 3,
+      "node_j": 5,
+      "distance_km": 3.072618,
+      "travel_time_min": 3.072618
+    },
+    {
+      "node_i": 3,
+      "node_j": 6,
+      "distance_km": 3.608685,
+      "travel_time_min": 3.608685
+    },
+    {
+      "node_i": 3,
+      "node_j": 7,
+      "distance_km": 22.561362,
+      "travel_time_min": 22.561362
+    },
+    {
+      "node_i": 3,
+      "node_j": 8,
+      "distance_km": 22.705033,
+      "travel_time_min": 22.705033
+    },
+    {
+      "node_i": 3,
+      "node_j": 9,
+      "distance_km": 21.380669,
+      "travel_time_min": 21.380669
+    },
+    {
+      "node_i": 4,
+      "node_j": 1,
+      "distance_km": 14.180807,
+      "travel_time_min": 14.180807
+    },
+    {
+      "node_i": 4,
+      "node_j": 2,
+      "distance_km": 26.75874,
+      "travel_time_min": 26.75874
+    },
+    {
+      "node_i": 4,
+      "node_j": 3,
+      "distance_km": 9.093928,
+      "travel_time_min": 9.093928
+    },
+    {
+      "node_i": 4,
+      "node_j": 5,
+      "distance_km": 10.771619,
+      "travel_time_min": 10.771619
+    },
+    {
+      "node_i": 4,
+      "node_j": 6,
+      "distance_km": 12.133143,
+      "travel_time_min": 12.133143
+    },
+    {
+      "node_i": 4,
+      "node_j": 7,
+      "distance_km": 28.442009,
+      "travel_time_min": 28.442009
+    },
+    {
+      "node_i": 4,
+      "node_j": 8,
+      "distance_km": 28.602767,
+      "travel_time_min": 28.602767
+    },
+    {
+      "node_i": 4,
+      "node_j": 9,
+      "distance_km": 26.92496,
+      "travel_time_min": 26.92496
+    },
+    {
+      "node_i": 5,
+      "node_j": 1,
+      "distance_km": 3.61137,
+      "travel_time_min": 3.61137
+    },
+    {
+      "node_i": 5,
+      "node_j": 2,
+      "distance_km": 18.506414,
+      "travel_time_min": 18.506414
+    },
+    {
+      "node_i": 5,
+      "node_j": 3,
+      "distance_km": 3.072618,
+      "travel_time_min": 3.072618
+    },
+    {
+      "node_i": 5,
+      "node_j": 4,
+      "distance_km": 10.771619,
+      "travel_time_min": 10.771619
+    },
+    {
+      "node_i": 5,
+      "node_j": 6,
+      "distance_km": 1.610906,
+      "travel_time_min": 1.610906
+    },
+    {
+      "node_i": 5,
+      "node_j": 7,
+      "distance_km": 19.512728,
+      "travel_time_min": 19.512728
+    },
+    {
+      "node_i": 5,
+      "node_j": 8,
+      "distance_km": 19.657908,
+      "travel_time_min": 19.657908
+    },
+    {
+      "node_i": 5,
+      "node_j": 9,
+      "distance_km": 18.313377,
+      "travel_time_min": 18.313377
+    },
+    {
+      "node_i": 6,
+      "node_j": 1,
+      "distance_km": 2.066293,
+      "travel_time_min": 2.066293
+    },
+    {
+      "node_i": 6,
+      "node_j": 2,
+      "distance_km": 18.416201,
+      "travel_time_min": 18.416201
+    },
+    {
+      "node_i": 6,
+      "node_j": 3,
+      "distance_km": 3.608685,
+      "travel_time_min": 3.608685
+    },
+    {
+      "node_i": 6,
+      "node_j": 4,
+      "distance_km": 12.133143,
+      "travel_time_min": 12.133143
+    },
+    {
+      "node_i": 6,
+      "node_j": 5,
+      "distance_km": 1.610906,
+      "travel_time_min": 1.610906
+    },
+    {
+      "node_i": 6,
+      "node_j": 7,
+      "distance_km": 19.202742,
+      "travel_time_min": 19.202742
+    },
+    {
+      "node_i": 6,
+      "node_j": 8,
+      "distance_km": 19.340912,
+      "travel_time_min": 19.340912
+    },
+    {
+      "node_i": 6,
+      "node_j": 9,
+      "distance_km": 18.12106,
+      "travel_time_min": 18.12106
+    },
+    {
+      "node_i": 7,
+      "node_j": 1,
+      "distance_km": 18.236829,
+      "travel_time_min": 18.236829
+    },
+    {
+      "node_i": 7,
+      "node_j": 2,
+      "distance_km": 2.749757,
+      "travel_time_min": 2.749757
+    },
+    {
+      "node_i": 7,
+      "node_j": 3,
+      "distance_km": 22.561362,
+      "travel_time_min": 22.561362
+    },
+    {
+      "node_i": 7,
+      "node_j": 4,
+      "distance_km": 28.442009,
+      "travel_time_min": 28.442009
+    },
+    {
+      "node_i": 7,
+      "node_j": 5,
+      "distance_km": 19.512728,
+      "travel_time_min": 19.512728
+    },
+    {
+      "node_i": 7,
+      "node_j": 6,
+      "distance_km": 19.202742,
+      "travel_time_min": 19.202742
+    },
+    {
+      "node_i": 7,
+      "node_j": 8,
+      "distance_km": 0.165932,
+      "travel_time_min": 0.165932
+    },
+    {
+      "node_i": 7,
+      "node_j": 9,
+      "distance_km": 1.797646,
+      "travel_time_min": 1.797646
+    },
+    {
+      "node_i": 8,
+      "node_j": 1,
+      "distance_km": 18.365434,
+      "travel_time_min": 18.365434
+    },
+    {
+      "node_i": 8,
+      "node_j": 2,
+      "distance_km": 2.886224,
+      "travel_time_min": 2.886224
+    },
+    {
+      "node_i": 8,
+      "node_j": 3,
+      "distance_km": 22.705033,
+      "travel_time_min": 22.705033
+    },
+    {
+      "node_i": 8,
+      "node_j": 4,
+      "distance_km": 28.602767,
+      "travel_time_min": 28.602767
+    },
+    {
+      "node_i": 8,
+      "node_j": 5,
+      "distance_km": 19.657908,
+      "travel_time_min": 19.657908
+    },
+    {
+      "node_i": 8,
+      "node_j": 6,
+      "distance_km": 19.340912,
+      "travel_time_min": 19.340912
+    },
+    {
+      "node_i": 8,
+      "node_j": 7,
+      "distance_km": 0.165932,
+      "travel_time_min": 0.165932
+    },
+    {
+      "node_i": 8,
+      "node_j": 9,
+      "distance_km": 1.956873,
+      "travel_time_min": 1.956873
+    }
+  ],
+  "stack_pairs": [
+    {
+      "item_m": 6,
+      "item_b": 7,
+      "q_mb": 1,
+      "q_bm": 1
+    },
+    {
+      "item_m": 6,
+      "item_b": 8,
+      "q_mb": 1,
+      "q_bm": 1
+    },
+    {
+      "item_m": 6,
+      "item_b": 10,
+      "q_mb": 1,
+      "q_bm": 1
+    },
+    {
+      "item_m": 7,
+      "item_b": 8,
+      "q_mb": 1,
+      "q_bm": 1
+    },
+    {
+      "item_m": 7,
+      "item_b": 10,
+      "q_mb": 0,
+      "q_bm": 0
+    },
+    {
+      "item_m": 8,
+      "item_b": 10,
+      "q_mb": 1,
+      "q_bm": 1
+    },
+    {
+      "item_m": 11,
+      "item_b": 12,
+      "q_mb": 0,
+      "q_bm": 0
+    },
+    {
+      "item_m": 14,
+      "item_b": 15,
+      "q_mb": 1,
+      "q_bm": 1
+    },
+    {
+      "item_m": 14,
+      "item_b": 16,
+      "q_mb": 1,
+      "q_bm": 1
+    },
+    {
+      "item_m": 14,
+      "item_b": 17,
+      "q_mb": 1,
+      "q_bm": 1
+    },
+    {
+      "item_m": 15,
+      "item_b": 16,
+      "q_mb": 1,
+      "q_bm": 1
+    },
+    {
+      "item_m": 15,
+      "item_b": 17,
+      "q_mb": 1,
+      "q_bm": 1
+    },
+    {
+      "item_m": 16,
+      "item_b": 17,
+      "q_mb": 1,
+      "q_bm": 1
+    },
+    {
+      "item_m": 18,
+      "item_b": 20,
+      "q_mb": 1,
+      "q_bm": 1
+    },
+    {
+      "item_m": 18,
+      "item_b": 21,
+      "q_mb": 1,
+      "q_bm": 1
+    },
+    {
+      "item_m": 20,
+      "item_b": 21,
+      "q_mb": 1,
+      "q_bm": 1
+    },
+    {
+      "item_m": 22,
+      "item_b": 23,
+      "q_mb": 0,
+      "q_bm": 0
+    },
+    {
+      "item_m": 22,
+      "item_b": 26,
+      "q_mb": 0,
+      "q_bm": 0
+    },
+    {
+      "item_m": 23,
+      "item_b": 26,
+      "q_mb": 0,
+      "q_bm": 0
+    }
+  ]
+}
