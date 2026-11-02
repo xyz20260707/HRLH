@@ -1,12 +1,10 @@
-# HRLH: paper replication attachment
+# HRLH
 
 Implementation and benchmark data for **Milk-Run Routing and Three-Dimensional Loading with Stacking Compatibility and Optional Demand: An Efficient Multiobjective Hybrid Heuristic**.
 
 This attachment contains HRLH-ILS, HRLH-ALNS and HRLH-HGS, the complete Gurobi routing/loading/scheduling model, 300 anonymized benchmark instances, and the run-level experimental data used in the paper. Time-limited stochastic runs on other hardware need not reproduce identical solutions.
 
 The three algorithms and the complete exact model are implemented in C++. The five Python scripts provide input conversion, executable launching, scenario generation, table reproduction and smoke testing.
-
-No project license has been selected by the authors. This repository does not grant an open-source license to the authors' original code or data. A license decision is needed before presenting it as a licensed open-source release. Gurobi is neither bundled nor licensed by this repository.
 
 ## Contents
 
